@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* bagina font  */
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #e2edff;
+}
+
+.jumbotron p {
+    margin-bottom: -40px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: -5px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 65px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+#project {
+    background-color: #e2edff;
+}
+
+footer {
+    margin-top: -2px;
+}
+
+footer a {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card {
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+svg {
+    margin-bottom: -50px;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    svg {
+        margin-bottom: -10px;
+    }
+
+    h2 {
+        padding-top: 60px;
+    }
+
+    .jumbotron p {
+        margin-bottom: 0px;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+
+}
