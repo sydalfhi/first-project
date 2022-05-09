@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* bagina font  */
+
+.namaDev{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .jumbotron {
     padding-top: 5rem;
     background-color: #e2edff;
